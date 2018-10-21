@@ -1,3 +1,19 @@
 body{
 background-color: orange;
 }
+
+h1{
+font-size:45px;
+color: white;
+}
+
+li{
+font-size: 35px;
+color: white;
+}
+
+p{
+color: white;
+font-size: 25px;
+}
+
