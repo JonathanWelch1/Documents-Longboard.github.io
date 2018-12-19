@@ -19,6 +19,7 @@ font-size: 25px;
 
 #container{
 	width: 70%;
+	length: 100%;
 	margin: auto;
 	padding: 30px;
 	border: 20px solid #666;
