@@ -3,7 +3,23 @@
      <head>
 		<link rel="stylesheet" href="Site.css" type="text/css" />
     		<title>The Cruise Hub</title>
-		
+	
+		<script>
+			function myFunction(imgs){
+			
+			var expandImg = document.getElementById("expandImg");
+			
+			var imgText = document.getElementById("imgtext");
+			
+			expandImg.src = imgs.src;
+
+			imgText.innerHTML = imgs.alt;
+
+			expandImg.parentElement.style.display = "block";
+			
+		}
+		</script>
+	
 	<div class="row">
 	
 		<div class="column">
